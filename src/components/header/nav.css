@@ -1,0 +1,23 @@
+nav {
+    position: relative;
+    padding: 15px;
+    height: 15px;
+}
+
+nav ul li {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav ul li:first-child {
+    float: left;
+}
+
+nav ul li {
+    float:right;
+}
+
+nav a {
+    color: white;
+}

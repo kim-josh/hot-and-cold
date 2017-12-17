@@ -1,0 +1,23 @@
+@keyframes feedback-highlight {
+    0% {
+        background: #9b1228;
+    }
+    100% {
+        background: #cc324b;
+    }
+}
+
+#feedback {
+    margin: 0 auto;
+    background: #cc324b;
+    display: block;
+    font-weight: 500;
+    padding: 15px 5px;
+    line-height: 30px;
+    width: 640px;
+}
+
+/* Styles the current active target element */
+#feedback:target {
+    animation: feedback-highlight 4s;
+}
